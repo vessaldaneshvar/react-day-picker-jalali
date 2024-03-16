@@ -1,4 +1,4 @@
-import { endOfMonth, startOfDay, startOfMonth } from 'date-fns';
+import { endOfMonth, startOfDay, startOfMonth } from 'date-fns-jalali';
 
 import { DayPickerBase } from 'types/DayPickerBase';
 

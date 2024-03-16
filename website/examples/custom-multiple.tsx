@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { isSameDay } from 'date-fns';
+import { isSameDay } from 'date-fns-jalali';
 import { DayClickEventHandler, DayPicker } from 'react-day-picker';
 
 export default function App() {

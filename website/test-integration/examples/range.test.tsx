@@ -3,7 +3,7 @@ import React from 'react';
 import { axe } from '@site/test/axe';
 import { user } from '@site/test/user';
 import { act, render } from '@testing-library/react';
-import { addDays } from 'date-fns';
+import { addDays } from 'date-fns-jalali';
 
 import {
   getAllSelectedDays,

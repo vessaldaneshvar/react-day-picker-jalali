@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { isSameDay } from 'date-fns';
+import { isSameDay } from 'date-fns-jalali';
 import {
   Button,
   DateRange,

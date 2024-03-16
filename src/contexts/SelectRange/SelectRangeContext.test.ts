@@ -5,7 +5,7 @@ import {
   addMonths,
   differenceInCalendarDays,
   subDays
-} from 'date-fns';
+} from 'date-fns-jalali';
 import { DayPickerProps } from 'DayPicker';
 
 import { renderDayPickerHook } from 'test/render';

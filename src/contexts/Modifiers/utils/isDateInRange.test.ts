@@ -1,4 +1,4 @@
-import { addDays } from 'date-fns';
+import { addDays } from 'date-fns-jalali';
 import { DateRange } from 'index';
 
 import { isDateInRange } from './isDateInRange';

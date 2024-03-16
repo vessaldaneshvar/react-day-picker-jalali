@@ -1,7 +1,7 @@
 {
-  "name": "react-day-picker",
-  "version": "8.10.0",
-  "description": "Customizable Date Picker for React",
+  "name": "react-day-picker-jalali",
+  "version": "0.0.2",
+  "description": "Customizable Date Picker for React in Jalali",
   "author": "Giampaolo Bellavite <io@gpbl.dev>",
   "homepage": "http://react-day-picker.js.org",
   "license": "MIT",
@@ -50,6 +50,7 @@
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "date-fns": "^3.0.6",
+    "date-fns-jalali": "3.4.0-0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",

@@ -1,6 +1,6 @@
 import { MouseEventHandler } from 'react';
 
-import { isSameMonth } from 'date-fns';
+import { isSameMonth } from 'date-fns-jalali';
 
 import { CaptionProps } from 'components/Caption/Caption';
 import { Navigation } from 'components/Navigation';

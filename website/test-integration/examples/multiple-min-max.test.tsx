@@ -4,7 +4,7 @@ import { axe } from '@site/test/axe';
 import { user } from '@site/test/user';
 import { freezeBeforeAll } from '@site/test/utils';
 import { act, render } from '@testing-library/react';
-import { addDays } from 'date-fns';
+import { addDays } from 'date-fns-jalali';
 
 import { getDayButton, getTableFooter } from 'react-day-picker/test/selectors';
 

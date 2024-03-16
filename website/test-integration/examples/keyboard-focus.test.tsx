@@ -5,7 +5,7 @@ import { user } from '@site/test/user';
 import { freezeBeforeAll } from '@site/test/utils';
 import { focusDaysGrid } from '@site/test/utils/focusDaysGrid';
 import { act, render } from '@testing-library/react';
-import { addDays, addMonths, startOfMonth } from 'date-fns';
+import { addDays, addMonths, startOfMonth } from 'date-fns-jalali';
 import { DayPickerProps } from 'react-day-picker';
 
 import {

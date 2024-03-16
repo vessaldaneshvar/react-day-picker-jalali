@@ -1,6 +1,6 @@
 import React, { ChangeEventHandler, useRef, useState } from 'react';
 
-import { format, isValid, parse } from 'date-fns';
+import { format, isValid, parse } from 'date-fns-jalali';
 import FocusTrap from 'focus-trap-react';
 import { DayPicker, SelectSingleEventHandler } from 'react-day-picker';
 import { usePopper } from 'react-popper';

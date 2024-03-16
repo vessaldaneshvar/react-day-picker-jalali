@@ -13,7 +13,7 @@ import {
   lastDayOfMonth,
   setDate,
   startOfWeek
-} from 'date-fns';
+} from 'date-fns-jalali';
 import { DayPickerProps } from 'react-day-picker';
 
 import {

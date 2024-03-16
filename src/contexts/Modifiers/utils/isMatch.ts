@@ -1,4 +1,9 @@
-import { differenceInCalendarDays, isAfter, isDate, isSameDay } from 'date-fns';
+import {
+  differenceInCalendarDays,
+  isAfter,
+  isDate,
+  isSameDay
+} from 'date-fns-jalali';
 
 import {
   isDateAfterType,

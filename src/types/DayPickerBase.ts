@@ -1,6 +1,6 @@
 import { CSSProperties, ReactNode } from 'react';
 
-import { Locale } from 'date-fns';
+import { Locale } from 'date-fns-jalali';
 
 import { CaptionLayout, CaptionProps } from 'components/Caption';
 import { CaptionLabelProps } from 'components/CaptionLabel';

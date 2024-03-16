@@ -6,7 +6,7 @@ import {
   addYears,
   endOfWeek,
   startOfWeek
-} from 'date-fns';
+} from 'date-fns-jalali';
 
 import { renderDayPickerHook, RenderHookResult } from 'test/render';
 import { freezeBeforeAll } from 'test/utils';

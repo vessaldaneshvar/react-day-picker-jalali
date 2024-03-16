@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { format } from 'date-fns';
+import { format } from 'date-fns-jalali';
 import { CaptionProps, DayPicker, useNavigation } from 'react-day-picker';
 
 function CustomCaption(props: CaptionProps) {

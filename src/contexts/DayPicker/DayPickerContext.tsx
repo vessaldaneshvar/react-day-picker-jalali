@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext } from 'react';
 
-import { Locale } from 'date-fns';
+import { Locale } from 'date-fns-jalali';
 import { DayPickerProps } from 'DayPicker';
 
 import { CaptionLayout } from 'components/Caption';

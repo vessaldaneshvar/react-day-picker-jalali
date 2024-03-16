@@ -1,4 +1,4 @@
-import { addMonths } from 'date-fns';
+import { addMonths } from 'date-fns-jalali';
 import { DayPickerProps } from 'DayPicker';
 
 import { customRender } from 'test/render';

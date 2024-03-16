@@ -8,7 +8,7 @@ import {
   Locale,
   startOfISOWeek,
   startOfWeek
-} from 'date-fns';
+} from 'date-fns-jalali';
 
 import { MonthWeek } from './getMonthWeeks';
 

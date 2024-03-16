@@ -1,5 +1,5 @@
 import { act } from '@testing-library/react';
-import { addMonths, startOfMonth, subMonths } from 'date-fns';
+import { addMonths, startOfMonth, subMonths } from 'date-fns-jalali';
 import { DayPickerProps } from 'DayPicker';
 
 import { renderDayPickerHook, RenderHookResult } from 'test/render';

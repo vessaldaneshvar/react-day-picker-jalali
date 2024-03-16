@@ -5,7 +5,7 @@ import {
   differenceInCalendarDays,
   isSameDay,
   subDays
-} from 'date-fns';
+} from 'date-fns-jalali';
 
 import { DayPickerBase } from 'types/DayPickerBase';
 import { DayPickerRangeProps, isDayPickerRange } from 'types/DayPickerRange';

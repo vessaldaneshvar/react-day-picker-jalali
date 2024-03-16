@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { differenceInCalendarDays } from 'date-fns';
+import { differenceInCalendarDays } from 'date-fns-jalali';
 import { DayPicker, Row, RowProps } from 'react-day-picker';
 
 function isPastDate(date: Date) {

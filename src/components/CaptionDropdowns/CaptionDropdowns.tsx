@@ -1,4 +1,4 @@
-import { addMonths } from 'date-fns';
+import { addMonths } from 'date-fns-jalali';
 
 import { CaptionProps } from 'components/Caption/Caption';
 import { CaptionLabel } from 'components/CaptionLabel';

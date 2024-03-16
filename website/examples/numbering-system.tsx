@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { format } from 'date-fns';
+import { format } from 'date-fns-jalali';
 import { arSA } from 'date-fns/locale';
 import {
   DateFormatter,

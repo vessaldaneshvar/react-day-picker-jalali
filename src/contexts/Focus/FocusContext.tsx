@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext, useState } from 'react';
 
-import { isSameDay } from 'date-fns';
+import { isSameDay } from 'date-fns-jalali';
 
 import { useDayPicker } from 'contexts/DayPicker';
 

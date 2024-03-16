@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { addDays, format } from 'date-fns';
+import { addDays, format } from 'date-fns-jalali';
 import { DateRange, DayPicker } from 'react-day-picker';
 
 const pastMonth = new Date(2020, 10, 15);

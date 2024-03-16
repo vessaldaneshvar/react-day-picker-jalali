@@ -1,5 +1,5 @@
 /* eslint-disable jest/no-standalone-expect */
-import { addDays, format, parseISO } from 'date-fns';
+import { addDays, format, parseISO } from 'date-fns-jalali';
 
 import {
   InternalModifier,

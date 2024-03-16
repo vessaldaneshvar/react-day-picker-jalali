@@ -1,4 +1,4 @@
-import { addDays } from 'date-fns';
+import { addDays } from 'date-fns-jalali';
 
 import { DayPickerContextValue } from 'contexts/DayPicker';
 import { getDefaultContextValues } from 'contexts/DayPicker/defaultContextValues';

@@ -1,6 +1,6 @@
 import { createRef } from 'react';
 
-import { addDays, addMonths } from 'date-fns';
+import { addDays, addMonths } from 'date-fns-jalali';
 import { DayPickerProps } from 'DayPicker';
 
 import { mockedContexts } from 'test/mockedContexts';

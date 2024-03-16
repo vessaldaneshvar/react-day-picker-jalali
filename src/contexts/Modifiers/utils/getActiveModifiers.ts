@@ -1,4 +1,4 @@
-import { isSameMonth } from 'date-fns';
+import { isSameMonth } from 'date-fns-jalali';
 
 import { ActiveModifiers, Modifiers } from 'types/Modifiers';
 

@@ -1,5 +1,5 @@
 import { screen } from '@testing-library/react';
-import { format } from 'date-fns';
+import { format } from 'date-fns-jalali';
 
 export function getDayButton(day: Date, index = 0) {
   return screen.getAllByRole('gridcell', {

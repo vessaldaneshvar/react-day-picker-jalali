@@ -1,4 +1,4 @@
-import { format, Locale } from 'date-fns';
+import { format, Locale } from 'date-fns-jalali';
 
 /**
  * The default formatter for the Day button.

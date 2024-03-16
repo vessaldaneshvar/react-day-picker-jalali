@@ -1,4 +1,8 @@
-import { addMonths, differenceInCalendarMonths, startOfMonth } from 'date-fns';
+import {
+  addMonths,
+  differenceInCalendarMonths,
+  startOfMonth
+} from 'date-fns-jalali';
 
 import { DayPickerContextValue } from 'contexts/DayPicker';
 

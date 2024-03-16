@@ -1,4 +1,4 @@
-import { addMonths, isSameMonth } from 'date-fns';
+import { addMonths, isSameMonth } from 'date-fns-jalali';
 
 import { getInitialMonth } from './getInitialMonth';
 

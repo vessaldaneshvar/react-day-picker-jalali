@@ -4,7 +4,7 @@ import {
   getWeeksInMonth,
   Locale,
   startOfMonth
-} from 'date-fns';
+} from 'date-fns-jalali';
 
 import { daysToMonthWeeks } from './daysToMonthWeeks';
 

@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { Locale } from 'date-fns';
+import { Locale } from 'date-fns-jalali';
 
 /** Represents a function to format a date. */
 export type DateFormatter = (

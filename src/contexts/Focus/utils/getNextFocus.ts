@@ -9,7 +9,7 @@ import {
   min,
   startOfISOWeek,
   startOfWeek
-} from 'date-fns';
+} from 'date-fns-jalali';
 
 import { DayPickerContextValue } from 'contexts/DayPicker';
 import { getActiveModifiers } from 'contexts/Modifiers';

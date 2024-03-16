@@ -1,4 +1,8 @@
-import { addMonths, differenceInCalendarMonths, startOfMonth } from 'date-fns';
+import {
+  addMonths,
+  differenceInCalendarMonths,
+  startOfMonth
+} from 'date-fns-jalali';
 
 /**
  * Returns the next month the user can navigate to according to the given

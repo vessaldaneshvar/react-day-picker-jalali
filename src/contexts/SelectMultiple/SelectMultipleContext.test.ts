@@ -1,6 +1,6 @@
 import { MouseEvent } from 'react';
 
-import { addDays, addMonths } from 'date-fns';
+import { addDays, addMonths } from 'date-fns-jalali';
 import { DayPickerProps } from 'DayPicker';
 
 import { renderDayPickerHook } from 'test/render';

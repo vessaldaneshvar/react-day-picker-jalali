@@ -1,5 +1,5 @@
 import { screen } from '@testing-library/react';
-import { setMonth, setYear } from 'date-fns';
+import { setMonth, setYear } from 'date-fns-jalali';
 import { DayPickerProps } from 'DayPicker';
 
 import { customRender } from 'test/render';

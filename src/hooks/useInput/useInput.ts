@@ -5,7 +5,11 @@ import {
   useState
 } from 'react';
 
-import { differenceInCalendarDays, format as _format, parse } from 'date-fns';
+import {
+  differenceInCalendarDays,
+  format as _format,
+  parse
+} from 'date-fns-jalali';
 import { enUS } from 'date-fns/locale';
 
 import { parseFromToProps } from 'contexts/DayPicker/utils';

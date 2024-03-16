@@ -1,6 +1,6 @@
 import React, { ChangeEventHandler, useState } from 'react';
 
-import { format, isAfter, isBefore, isValid, parse } from 'date-fns';
+import { format, isAfter, isBefore, isValid, parse } from 'date-fns-jalali';
 import {
   DateRange,
   DayPicker,

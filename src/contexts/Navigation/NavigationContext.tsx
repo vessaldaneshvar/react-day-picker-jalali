@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext } from 'react';
 
-import { addMonths, isBefore, isSameMonth } from 'date-fns';
+import { addMonths, isBefore, isSameMonth } from 'date-fns-jalali';
 
 import { useDayPicker } from '../DayPicker';
 import { useNavigationState } from './useNavigationState';

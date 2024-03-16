@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { format } from 'date-fns';
+import { format } from 'date-fns-jalali';
 import { DateFormatter, DayPicker } from 'react-day-picker';
 
 const seasonEmoji: Record<string, string> = {

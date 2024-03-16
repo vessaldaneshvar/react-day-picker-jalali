@@ -1,4 +1,4 @@
-import { differenceInCalendarDays, isSameDay } from 'date-fns';
+import { differenceInCalendarDays, isSameDay } from 'date-fns-jalali';
 
 import { DateRange } from 'types/Matchers';
 

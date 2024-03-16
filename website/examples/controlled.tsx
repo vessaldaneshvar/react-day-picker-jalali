@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { addMonths, isSameMonth } from 'date-fns';
+import { addMonths, isSameMonth } from 'date-fns-jalali';
 import { DayPicker } from 'react-day-picker';
 
 export default function App() {

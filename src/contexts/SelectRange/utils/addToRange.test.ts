@@ -1,4 +1,4 @@
-import { addDays, subDays } from 'date-fns';
+import { addDays, subDays } from 'date-fns-jalali';
 
 import { DateRange } from 'types/Matchers';
 

@@ -1,4 +1,4 @@
-import { addDays, endOfMonth, startOfMonth } from 'date-fns';
+import { addDays, endOfMonth, startOfMonth } from 'date-fns-jalali';
 
 import { getActiveModifiers } from 'contexts/Modifiers';
 import { Modifiers } from 'types/Modifiers';

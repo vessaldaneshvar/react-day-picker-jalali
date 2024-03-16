@@ -1,4 +1,4 @@
-import { getUnixTime } from 'date-fns';
+import { getUnixTime } from 'date-fns-jalali';
 
 import { Day } from 'components/Day';
 import { WeekNumber } from 'components/WeekNumber';

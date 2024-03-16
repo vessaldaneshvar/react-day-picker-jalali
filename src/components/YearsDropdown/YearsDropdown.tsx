@@ -1,6 +1,6 @@
 import { ChangeEventHandler } from 'react';
 
-import { setYear, startOfMonth, startOfYear } from 'date-fns';
+import { setYear, startOfMonth, startOfYear } from 'date-fns-jalali';
 
 import { Dropdown } from 'components/Dropdown';
 import { useDayPicker } from 'contexts/DayPicker';

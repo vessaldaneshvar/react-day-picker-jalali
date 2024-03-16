@@ -1,6 +1,6 @@
 import { RefObject, useEffect } from 'react';
 
-import { isSameDay } from 'date-fns';
+import { isSameDay } from 'date-fns-jalali';
 
 import { ButtonProps } from 'components/Button';
 import { DayContent } from 'components/DayContent';

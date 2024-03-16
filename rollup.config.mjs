@@ -39,12 +39,12 @@ const mainConfig = {
       sourcemap: true,
       globals: {
         react: 'React',
-        'date-fns': 'DateFns',
-        'date-fns/locale': 'DateFnsLocale'
+        'date-fns-jalali': 'DateFns',
+        'date-fns-jalali/locale': 'DateFnsLocale'
       }
     }
   ],
-  external: ['react', 'date-fns', 'date-fns/locale'],
+  external: ['react', 'date-fns-jalali', 'date-fns-jalali/locale'],
   plugins: [
     nodeResolve(),
     commonjs(),
