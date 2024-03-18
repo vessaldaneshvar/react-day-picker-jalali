@@ -25,9 +25,9 @@
 ## Installation
 
 ```shell
-npm install react-day-picker date-fns-jalali  # using npm
-pnpm install react-day-picker date-fns-jalali # using pnpm
-yarn add react-day-picker date-fns-jalali     # using yarn
+npm install react-day-picker-jalali date-fns-jalali  # using npm
+pnpm install react-day-picker-jalali date-fns-jalali # using pnpm
+yarn add react-day-picker-jalali date-fns-jalali     # using yarn
 ```
 
 <a href="https://www.npmjs.com/package/react-day-picker"><img src="https://img.shields.io/npm/v/react-day-picker.svg?style=flat-square" alt="npm version"/></a> <img src="https://img.shields.io/npm/dm/react-day-picker.svg?style=flat-square" alt="npm downloads"/> <img src="https://img.shields.io/bundlephobia/minzip/react-day-picker" alt="Min gzipped size"/>
