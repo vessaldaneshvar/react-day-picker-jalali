@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { es } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 import { DayPicker } from 'react-day-picker';
 
 export default function App() {
-  return <DayPicker locale={es} weekStartsOn={0} />;
+  return <DayPicker locale={faIR} weekStartsOn={0} />;
 }

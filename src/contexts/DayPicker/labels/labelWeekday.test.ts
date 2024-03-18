@@ -1,4 +1,4 @@
-import { es } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 
 import { labelWeekday } from './labelWeekday';
 
@@ -10,6 +10,6 @@ test('should return the formatted weekday name', () => {
 
 describe('when a locale is passed in', () => {
   test('should format using the locale', () => {
-    expect(labelWeekday(weekDay, { locale: es })).toEqual('lunes');
+    expect(labelWeekday(weekDay, { locale: faIR })).toEqual('lunes');
   });
 });

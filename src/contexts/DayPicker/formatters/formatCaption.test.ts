@@ -1,4 +1,4 @@
-import { es } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 
 import { formatCaption } from './formatCaption';
 
@@ -10,6 +10,6 @@ test('should return the formatted caption', () => {
 
 describe('when a locale is passed in', () => {
   test('should format using the locale', () => {
-    expect(formatCaption(date, { locale: es })).toEqual('noviembre 2022');
+    expect(formatCaption(date, { locale: faIR })).toEqual('noviembre 2022');
   });
 });

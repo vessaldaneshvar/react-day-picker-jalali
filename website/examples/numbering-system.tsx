@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { format } from 'date-fns-jalali';
-import { arSA } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 import {
   DateFormatter,
   DayPicker,
@@ -26,7 +26,7 @@ const formatCaption: DateFormatter = (date, options) => {
 export default function App() {
   return (
     <DayPicker
-      locale={arSA}
+      locale={faIR}
       dir="rtl"
       showWeekNumber
       formatters={{ formatDay, formatCaption, formatWeekNumber }}

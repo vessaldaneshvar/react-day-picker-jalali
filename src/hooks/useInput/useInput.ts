@@ -10,7 +10,7 @@ import {
   format as _format,
   parse
 } from 'date-fns-jalali';
-import { enUS } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 
 import { parseFromToProps } from 'contexts/DayPicker/utils';
 import { DayPickerBase } from 'types/DayPickerBase';
@@ -81,7 +81,7 @@ export interface UseInputValue {
 /** Return props and setters for binding an input field to DayPicker. */
 export function useInput(options: UseInputOptions = {}): UseInputValue {
   const {
-    locale = enUS,
+    locale = faIR,
     required,
     format = 'PP',
     defaultSelected,

@@ -1,4 +1,4 @@
-import { es } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 
 import { freezeBeforeAll } from 'test/utils';
 
@@ -28,7 +28,7 @@ describe.each<0 | 1 | 2 | 3 | 4 | 5 | 6>([0, 1, 2, 3, 4, 5, 6])(
   'when week start on %s',
   (weekStartsOn) => {
     beforeEach(() => {
-      result = getWeekdays(es, weekStartsOn);
+      result = getWeekdays(faIR, weekStartsOn);
     });
     test('the first date should be weekStartsOn', () => {
       expect(result[0].getDay()).toBe(weekStartsOn);
@@ -38,7 +38,7 @@ describe.each<0 | 1 | 2 | 3 | 4 | 5 | 6>([0, 1, 2, 3, 4, 5, 6])(
 
 describe('when using ISO week', () => {
   beforeEach(() => {
-    result = getWeekdays(es, 3, true);
+    result = getWeekdays(faIR, 3, true);
   });
   test('should return Monday as first day', () => {
     expect(result[0]).toEqual(prevMonday);

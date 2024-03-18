@@ -1,4 +1,4 @@
-import { es } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 
 import { formatMonthCaption } from './formatMonthCaption';
 
@@ -10,6 +10,6 @@ test('should return the formatted month caption', () => {
 
 describe('when a locale is passed in', () => {
   test('should format using the locale', () => {
-    expect(formatMonthCaption(date, { locale: es })).toEqual('noviembre');
+    expect(formatMonthCaption(date, { locale: faIR })).toEqual('noviembre');
   });
 });

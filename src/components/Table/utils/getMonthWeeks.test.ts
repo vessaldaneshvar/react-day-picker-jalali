@@ -1,9 +1,9 @@
-import { enGB, enUS } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 
 import { getMonthWeeks } from './getMonthWeeks';
 
 describe('when using the "enUS" locale', () => {
-  const locale = enUS;
+  const locale = faIR;
   describe('when using fixed weeks', () => {
     const useFixedWeeks = true;
     describe('when getting the weeks for December 2022', () => {
@@ -24,7 +24,7 @@ describe('when using the "enUS" locale', () => {
     describe('when getting the weeks for December 2021', () => {
       const weeks = getMonthWeeks(new Date(2021, 11), {
         useFixedWeeks: false,
-        locale: enUS
+        locale: faIR
       });
       test('should return 49 - 1 week numbers', () => {
         const weekNumbers = weeks.map((week) => week.weekNumber);
@@ -47,7 +47,7 @@ describe('when using the "enUS" locale', () => {
 });
 
 describe('when using the "enGB" locale', () => {
-  const locale = enGB;
+  const locale = faIR;
   describe('when getting the weeks for January 2022', () => {
     const date = new Date(2022, 0);
     const weeks = getMonthWeeks(date, { locale });
@@ -76,7 +76,7 @@ describe('when using the "enGB" locale', () => {
 });
 
 describe('when using the ISOWeek numbers', () => {
-  const locale = enUS;
+  const locale = faIR;
   describe('when getting the weeks for September 2022', () => {
     const date = new Date(2022, 8);
     const weeks = getMonthWeeks(date, { locale, ISOWeek: true });
@@ -88,7 +88,7 @@ describe('when using the ISOWeek numbers', () => {
 });
 
 describe('when not using the ISOWeek numbers', () => {
-  const locale = enUS;
+  const locale = faIR;
   describe('when getting the weeks for September 2022', () => {
     const date = new Date(2022, 8);
     const weeks = getMonthWeeks(date, { locale, ISOWeek: false });

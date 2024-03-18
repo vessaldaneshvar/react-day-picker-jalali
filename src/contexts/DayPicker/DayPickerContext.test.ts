@@ -1,6 +1,6 @@
 /* eslint-disable testing-library/render-result-naming-convention */
 
-import { es } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 import { DayPickerProps } from 'DayPicker';
 
 import { renderDayPickerHook } from 'test/render';
@@ -37,7 +37,7 @@ describe('when rendered without props', () => {
   });
 });
 describe('when passing "locale" from props', () => {
-  const locale = es;
+  const locale = faIR;
   test('should return the custom locale', () => {
     const result = renderHook({ locale });
     expect(result.current.locale).toBe(locale);

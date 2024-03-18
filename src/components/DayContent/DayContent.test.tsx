@@ -1,4 +1,4 @@
-import { es } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 import { DayPickerProps } from 'DayPicker';
 
 import { customRender } from 'test/render';
@@ -24,7 +24,7 @@ const props: DayContentProps = {
 };
 
 const dayPickerProps: DayPickerProps = {
-  locale: es
+  locale: faIR
 };
 
 describe('when rendered', () => {

@@ -1,4 +1,4 @@
-import { enUS } from 'date-fns/locale';
+import { faIR } from 'date-fns-jalali/locale';
 
 import { CaptionLayout } from 'components/Caption';
 import { DayPickerContextValue } from 'contexts/DayPicker';
@@ -31,7 +31,7 @@ export type DefaultContextValues = Pick<
 export function getDefaultContextValues(): DefaultContextValues {
   const captionLayout: CaptionLayout = 'buttons';
   const classNames = defaultClassNames;
-  const locale = enUS;
+  const locale = faIR;
   const modifiersClassNames = {};
   const modifiers = {};
   const numberOfMonths = 1;
