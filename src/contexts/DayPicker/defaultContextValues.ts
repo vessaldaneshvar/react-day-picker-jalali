@@ -18,7 +18,8 @@ export type DefaultContextProps =
   | 'numberOfMonths'
   | 'styles'
   | 'today'
-  | 'mode';
+  | 'mode'
+  | 'dir';
 
 export type DefaultContextValues = Pick<
   DayPickerContextValue,
@@ -49,6 +50,7 @@ export function getDefaultContextValues(): DefaultContextValues {
     numberOfMonths,
     styles,
     today,
+    dir: 'rtl',
     mode: 'default'
   };
 }
